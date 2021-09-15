@@ -104,7 +104,12 @@
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
+@media all and (max-width: 500px) {
+  .container{
+    width:125% !important;
+  }
 
+}
 .readme:hover{
   color: white;
   background-color: #00796b;
