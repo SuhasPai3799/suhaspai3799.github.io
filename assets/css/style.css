@@ -80,7 +80,16 @@
 }
 
 /* Buttons - Read Me, Contact Us */
-
+@media all and (min-width: 700px) {
+  .readme {
+   margin-top:1.5em;
+  }
+}
+@media all and (min-width: 300px) and (max-width: 700px) {
+  .readme {
+   margin-top:0.5em;
+  }
+}
 .readme {
   position: relative;
   padding: 11px 35px;
@@ -91,14 +100,15 @@
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
+  
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
+.readme:hover{
   color: white;
   background-color: #00796b;
-} */
+}
 
 .contactme {
   position: relative;
@@ -110,7 +120,6 @@
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  margin-top: 1.5em;
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
